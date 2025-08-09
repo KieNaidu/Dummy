@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform" id="myform" >
+  <label for="firstname">First Name:</label>
+  <input type="text" id="firstname" name="firstname" placeholder="Enter your name" required>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+  <input type="password" name="pwd" placeholder="Password">
+
+  <fieldset>
+    <legend>Gender</legend>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="color" name="favcolor">
+    <input type="file" name="upload">
+    <textarea rows="4" cols="20" placeholder="Your message..."></textarea>
+  </fieldset>
+
+  <label for="city">City:</label>
+  <select name="city" id="city">
+    <option value="dbn">Durban</option>
+    <option value="ct">Cape Town</option>
+    <option value="jhb">Johannesburg</option>
+    <option value="pe">Port Elizabeth</option>
+    <option value="other">Other</option>
+  </select>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
